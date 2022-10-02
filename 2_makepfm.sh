@@ -7,6 +7,9 @@ source /tools/Xilinx/Vitis/2022.1/settings64.sh
 source ./scripts/make_vivado.sh
 
 #pfm
+mkdir pfm 
+mkdir pfm/boot 
+mkdir pfm/sddir
 mkdir vitis
 xsct ./scripts/platform.tcl
 
