@@ -11,7 +11,7 @@ fi
 
 # ZYNQMP IMAGE FILE
 if [ ! -e xilinx-zynqmp-common-v2022.1_04191534.tar.gz ] ; then
-	echo "Plese Downlad zynqmp common Iage file"
+	echo "Plese Downlad zynqmp common Image file"
 	echo "Vitis https://japan.xilinx.com/support/download/index.html/content/xilinx/ja/downloadNav/embedded-platforms.html"
 	return
 	exit
