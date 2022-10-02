@@ -29,11 +29,6 @@ XILINX社　Vitis 2022.1 が必要です。
   
   [Windowsで、FPGA開発。WSL2を使って、Vitis2022.1の環境設定(AIエッジコンテスト対応版](https://qiita.com/basaro_k/items/04eea702c83a927f920c 'WSL INSTALL')
 
-# ダウンロードが必要なファイル
-
-次のファイルは、承認が必要なため、自動的にダウンロード出来ません。
-
-各自ダウンロードして、AIEDGE6のフォルダーに入れてください。
   
 #### ZYNQMPの共通イメージ
 
@@ -48,15 +43,27 @@ KV260上で動く、Linuxイメージ。コンパイル用ライブラリーも�
 # 実行手順
 
 
-このリソースをダウンロードします。
+このリリースをダウンロードします。
 
 `git clone --recursive https://github.com/basaro/AIEDGE6.git`
-
 
 スクリプトファイルを作っていますので、順番に実行します。
 最初にディレクトリーを変更してください。
 
 `cd AIEDGE6`
+
+### ZYNQMPの共通イメージ
+
+KV260上で動く、Linuxイメージ。コンパイル用ライブラリーも入っています。
+承認が必要なため、自動的にダウンロードできません。ホームページからダウンロードをお願いします。
+
+[エンベデッド Vitis プラットフォーム向けの共通イメージ - 2022.1](https://japan.xilinx.com/support/download/index.html/content/xilinx/ja/downloadNav/embedded-platforms.html 'ZYNQMP IMAGE')
+
+このページで、ZYNQMPの共通イメージを探して、AIEDGE6にダウンロードします。
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/299213/26b3e5fd-d7b1-d1b1-8149-983f34cc7cac.png)
+
+
 
 ### ダウンロードファイル
 
