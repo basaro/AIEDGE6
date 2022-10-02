@@ -64,7 +64,7 @@ KV260上で動く、Linuxイメージ。コンパイル用ライブラリーも�
 
 DPU、ラインタイムパッケージが対応します。
 
-`source ./1_download.sh`
+`source 1_download.sh`
 
 ### Vitisプラットフォーム作成
 
